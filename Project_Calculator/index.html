@@ -8,28 +8,48 @@
 </head>
 
 <body>
+  <script src="script.js">
+      
+  </script>
+
   <div class="container">
     <div class="titulo">
       <p>My_Calculator</p>
-    </div> 
+    </div>
 
     <div class="calculator-background">
-      <div class="visor"> </div>
+      <div class="visor"> 0</div>
 
       <div class="numbers">
+        <div class="terciary">
+          <button type="button">AC</button>
+          <button type="button">+/-</button>
+          <button type="button">%</button>
+        </div>
+        <button type="button" class="secundary" onclick="getOperation()">/</button>
+        <button type="button" onclick="getNumber(7)">7</button>
+        <button type="button" onclick="getNumber(8)">8</button>
+        <button type="button" onclick="getNumber(9)">9</button>
+        <button type="button" class="secundary" onclick="getOperation()">x</button>
+        <button type="button" onclick="getNumber(4)">4</button>
+        <button type="button" onclick="getNumber(5)">5</button>
+        <button type="button" onclick="getNumber(6)">6</button>
+        <button type="button" class="secundary" onclick="getOperation()">-</button>
+        <button type="button" onclick="getNumber(1)">1</button>
+        <button type="button" onclick="getNumber(2)">2</button>
+        <button type="button" onclick="getNumber(3)">3</button>
+        <button type="button" class="secundary" onclick="getOperation()">+</button>
+        <div class="zero">
+          <button type="button" onclick="getNumber(0)">0</button>
+        </div>
+        <button type="button" onclick="getOperation()">,</button>
+        <button type="button" class="secundary" onclick="getOperation()">=</button>
       </div>
-
 
     </div>
 
   </div>
 
-  
-
-  <!-- <div class="content"></div>
-  
-  <div class="numbers"></div>
-  <div class="operators"></div> -->
 </body>
 
 </html>
