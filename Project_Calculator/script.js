@@ -96,9 +96,3 @@ function reverseSign() {
 }
 
 
-/* 
-
- criar uma funcao que verifica se o n1 existe e o operator existe tbm e o n2 é indefinido, se for verdaeiro o n2 recebe o valor de n1, senao nada acontece  
- 
- */
- 
