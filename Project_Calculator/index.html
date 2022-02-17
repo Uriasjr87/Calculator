@@ -24,8 +24,8 @@
 
       <div class="numbers">
         <div class="terciary">
-          <button type="button">AC</button>
-          <button type="button">+/-</button>
+          <button type="button" onclick="clearAll()">AC</button>
+          <button type="button" onclick="reverseSign()">+/-</button>
           <button type="button">%</button>
         </div>
         <button type="button" class="secundary" onclick="getOperation('/')">/</button>
@@ -44,8 +44,8 @@
         <div class="zero">
           <button type="button" onclick="getNumber(0)">0</button>
         </div>
-        <button type="button" onclick="getOperation('.')">,</button>
-        <button type="button" class="secundary" onclick="">=</button>
+        <button type="button" onclick="getNumber('.')">,</button>
+        <button type="button" class="secundary" onclick="equalsButton()">=</button>
       </div>
 
     </div>
